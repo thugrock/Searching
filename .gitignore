@@ -1,9 +1,10 @@
-c/*.exe
+.vscode/*
+c/*/*.exe
 c/.vscode
-c++/*.exe
+c++/*/*.exe
 c++/.vscode
-java/*.exe
+java/*/*.exe
 java/.vscode
-python/*.exe
+python/*/*.exe
 python/.vscode
 
