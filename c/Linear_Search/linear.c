@@ -6,7 +6,7 @@
 int* inputFromUser(int size){
     int *arr,i;
     arr=(int *)malloc(sizeof(int)*size);
-    printf("Enter the Array Elements to be Sorted:\n");
+    printf("Enter the Array Elements :\n");
     for(i=0;i<size;i++){
         scanf("%d",&arr[i]);
     }
@@ -18,7 +18,7 @@ void linear_Search(int* arr,int size,int element){
     int i,j;
     for(int i=0;i<size;i++){
         if(arr[i]==element){
-            printf("YES! The req no. %d is found",element);
+            printf("YES! The req no. %d is found at position %d",element,i+1);
             return;
         }
     }
